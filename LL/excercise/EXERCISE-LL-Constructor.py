@@ -1,9 +1,23 @@
 class Node:
     def __init__(self, value):
+        ## WRITE NODE CONSTRUCTOR HERE ##
+        #                               #
+        #                               #
+        #                               #
+        #                               #
+        #################################
+
         self.value = value
         self.next = None
         
 class LinkedList:
+    ## WRITE LL CONSTRUCTOR HERE ##
+    #                             #
+    #                             #
+    #                             #
+    #                             #
+    ###############################
+    
     def __init__(self, value):
         new_node = Node(value)
         self.head = new_node
